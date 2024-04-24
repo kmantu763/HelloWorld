@@ -10,4 +10,8 @@ app.get('/developer', (req, res)=>{
     res.json('Mantu Kumar Keshri')
 })
 
+app.get('/developer/greeting',(req, res)=>{
+    res.json('Thank You Render');
+})
+
 module.exports = app;

@@ -24,5 +24,5 @@ const DeveloperSchema = new Schema(
 );
 
 
-const Developer = mongoose.model('Developers', DeveloperSchema);
-module.exports = Developer;
+const user = mongoose.model('users', DeveloperSchema);
+module.exports = user;

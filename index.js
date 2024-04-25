@@ -5,7 +5,7 @@ const port = 3000;
 
 
 // MongoDB connection
-const db_url = "mongodb://localhost:27017/HelloWorld";
+const db_url = "mongodb+srv://kmantu763:mantukumar763@cluster0.io7ysrh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/HelloWorld";
 
 mongoose.connect(db_url)
     .then(()=>console.log('db connected successfully'))
